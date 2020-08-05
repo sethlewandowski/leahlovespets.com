@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Leah Loves Pets - Training</title>
+    <meta name="description" content="Leah Loves Pets: Training">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css" >
+    <meta property="og:title" content="Leah Loves Pets">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://leahlovespets.com/training">
+    <meta property="og:image" content="images/header-background.jpg">
+    <meta property="og:description" content="Training">
+  </head>
+
+  <body>
+    <header class="simple-nav">
+      <div class="nav-bar nav-colored" id="nav">
+          <a href="/"><img src="images/logo.png" id="header-img" alt="Logo"></a>
+          <nav>
+            <label for="toggle"><img id="nav-paw" src="images/paw.png"></label><input type="checkbox" id="toggle"/>
+            <div class="menu">
+              <a href="training">Training</a>
+              <a href="care-at-home">Care at Home</a>
+              <a href="waste-removal">Waste Removal</a>
+              <a href="about">About</a>
+            </div>
+          </nav>
+        </div>
+    </header>
+
+    <main>
+      <div id="title">
+        <h1 class="centered">Training</h1>
+      </div>
+        <div class="centered">
+          <img src="images/training-page.jpg" alt="photo of dog being trained on leash">
+          <p>As a PetSmart certified dog trainer, I have all the experience and training necessary to help your loved one learn to be a better behaved pet!</p>
+          <p>During my training sessions, I will work with your pet to improve on the following:</p>
+          <p>Focus</p>
+          <p>Touch</p>
+          <p>Come When Called</p>
+          <p>Loose Leash Walk</p>
+          <p>Sit</p>
+          <p>Take It, Leave It, Drop It</p>
+          <p>Wait</p>
+          <p>Lay Down</p>
+          <p>Stay</p>
+          <h2>Pricing</h2>
+          <p>1 Hour Session - $20</p>
+          <p>I promise that after just a few short sessions with me, you will not believe the behavior change that your pet will experience. If you're interested in learning more, give me a call!</p>
+          <a href="tel:+19188103600">
+          <div class="cta-button accent-button">
+            (918) 810-3600
+          </div>
+        </a>
+      </div>
+    </main>
+  
+    <footer>
+      <p><a id="footer-phone" href="tel:19188103600">(918) 810-3600</a></p>
+      <ul class="footer-nav">
+        <li><a href="training">Training</a></li>
+        <li><a href="care-at-home">Care at Home</a></li>
+        <li><a href="waste-removal">Waste Removal</a></li>
+        <li><a href="about">About</a></li>
+      </ul>
+      <p>&copy Leah Loves Pets 2020</p>
+    </footer>
+  </body>
+</html>

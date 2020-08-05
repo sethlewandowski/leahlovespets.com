@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Leah Loves Pets - About</title>
+    <meta name="description" content="Leah Loves Pets: About Me">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css" >
+    <meta property="og:title" content="Leah Loves Pets">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://leahlovespets.com/">
+    <meta property="og:image" content="images/header-background.jpg">
+    <meta property="og:description" content="About Me">
+  </head>
+
+  <body>
+    <header class="simple-nav">
+      <div class="nav-bar nav-colored" id="nav">
+        <a href="/"><img src="images/logo.png" id="header-img" alt="Logo"></a>
+        <nav>
+          <label for="toggle"><img id="nav-paw" src="images/paw.png"></label><input type="checkbox" id="toggle"/>
+          <div class="menu">
+            <a href="training">Training</a>
+            <a href="care-at-home">Care at Home</a>
+            <a href="waste-removal">Waste Removal</a>
+            <a href="about">About</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div id="title">
+        <h1 class="centered">Hi, I'm Leah!</h1>
+      </div>
+      <img src="images/leah.jpg" alt="photo of me smiling">
+      <div class="centered">
+        <p>If there's anything to know about me, it's that I LOVE PETS! My love for pets fueled my desire to become a dog trainer. But I've realized that sometimes there are more pressing needs as well!</p>
+        <p>That's why I offer pet waste removal services along with training and at home care for your furry loved ones.</p>
+        <p>If you're curious about my experience, I've had just about every pet you can imagine from hamsters to snakes (Don't worry, not at the same time!).</p>
+        <p>I'm also a certified dog trainer through PetSmart which required 2 weeks of intensive training in Oklahoma City.</p> 
+        <p>Give me a call to discuss your needs! I would love to meet you but most of all would love to work with your pets!</p>
+        <a href="tel:+19188103600">
+          <div class="cta-button accent-button">
+            (918) 810-3600
+          </div>
+        </a>
+      </div>
+    </main>
+  
+    <footer>
+      <p><a id="footer-phone" href="tel:19188103600">(918) 810-3600</a></p>
+      <ul class="footer-nav">
+        <li><a href="training">Training</a></li>
+        <li><a href="care-at-home">Care at Home</a></li>
+        <li><a href="waste-removal">Waste Removal</a></li>
+        <li><a href="about">About</a></li>
+      </ul>
+      <p>&copy Leah Loves Pets 2020</p>
+    </footer>
+  </body>
+</html>
