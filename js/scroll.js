@@ -24,6 +24,8 @@ window.onscroll = function() {
 		 if (distanceScrolled < lastDistanceScrolled) {
 			// if so, display the navigation bar
 			nav.classList.remove("hidden");
+		} else if (distanceScrolled <= 0) {
+			nav.classList.remove("hidden");
 		}
 		// reset the value of lastDistanceScrolled 
 		lastDistanceScrolled = distanceScrolled; 
