@@ -11,16 +11,26 @@
     <meta property="og:url" content="https://leahlovespets.com/">
     <meta property="og:image" content="images/header-background.jpg">
     <meta property="og:description" content="Pet Training, Care, and Loves">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174936837-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-174936837-1');
+    </script>
+
   </head>
 
   <body>
-    <header>
+    <header id="header">
       <div class="site-header fixed">
-        <div class="nav-bar" id="nav">
+        <div class="nav-bar nav-colored" id="nav">
           <a href="/"><img src="images/logo.png" id="header-img" alt="Logo"></a>
           <nav>
             <label for="toggle"><img id="nav-paw" src="images/paw.png"></label><input type="checkbox" id="toggle"/>
-            <div class="menu">
+            <div id="nav-menu" class="menu">
               <a href="training">Training</a>
               <a href="care-at-home">Care at Home</a>
               <a href="waste-removal">Waste Removal</a>
@@ -30,16 +40,14 @@
         </div>
       </div>
       <div class="cta">
-        <h1>Pet Training, Care, and Loves &hearts;</h1>
+        <h1>Professional Pet Services</h1>
       </div>
     </header>
 
     <main>
-      <div id="title">
-        <h1 class="centered">Professional Pet Services</h1>
-      </div>
+ 
         <div class="centered">
-          <p>Pet Training, Care, and Loves in Tulsa, OK.</p>
+          <h1>Pet Training, Care, and Loves in Tulsa, OK.</h1>
         </div>
 
       <div class="flex-container">
@@ -78,5 +86,6 @@
       <p>&copy Leah Loves Pets 2020</p>
     </footer>
     <script src="js/scroll.js"></script>
+    <script src="js/click.js"></script>
   </body>
 </html>

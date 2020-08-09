@@ -92,12 +92,15 @@ header {
 .fixed{
   position: fixed;
 }
+.hidden {
+  display: none !important;
+}
 header.simple-nav{
   height: 0;
   margin-bottom: 60px;
 }
 .nav-bar{
-  height: 80px;
+  height: 70px;
   width: 100%;
   position: fixed;
   z-index:100;
