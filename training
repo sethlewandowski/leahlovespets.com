@@ -11,17 +11,8 @@
     <meta property="og:url" content="https://leahlovespets.com/training">
     <meta property="og:image" content="images/header-background.jpg">
     <meta property="og:description" content="Training">
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174936837-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-174936837-1');
-    </script>
+    <script src="https://cdn.usefathom.com/script.js" site="UMBXYJBL" defer></script>
   </head>
-
-  <body>
     <header class="simple-nav">
       <div class="nav-bar nav-colored" id="nav">
           <a href="/"><img src="images/logo.png" id="header-img" alt="Logo"></a>
@@ -36,7 +27,7 @@
           </nav>
         </div>
     </header>
-
+    <body>
     <main>
       <div id="title">
         <h1 class="centered">Training</h1>
@@ -64,16 +55,17 @@
         </a>
       </div>
     </main>
-  
-    <footer>
-      <p><a id="footer-phone" href="tel:19188103600">(918) 810-3600</a></p>
-      <ul class="footer-nav">
-        <li><a href="training">Training</a></li>
-        <li><a href="care-at-home">Care at Home</a></li>
-        <li><a href="waste-removal">Waste Removal</a></li>
-        <li><a href="about">About</a></li>
-      </ul>
-      <p>&copy Leah Loves Pets 2020</p>
-    </footer>
+    <script src="js/scroll.js"></script>
+    <script src="js/click.js"></script>
   </body>
+  <footer>
+    <p><a id="footer-phone" href="tel:19188103600">(918) 810-3600</a></p>
+    <ul class="footer-nav">
+      <li><a href="training">Training</a></li>
+      <li><a href="care-at-home">Care at Home</a></li>
+      <li><a href="waste-removal">Waste Removal</a></li>
+      <li><a href="about">About</a></li>
+    </ul>
+    <p>&copy Leah Loves Pets 2020</p>
+  </footer>
 </html>
