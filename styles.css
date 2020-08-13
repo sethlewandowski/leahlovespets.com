@@ -289,8 +289,8 @@ footer a {
   text-align: center;
   background-color: var(--primary-color); /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */]
-  margin-top: 0; /* override standard margin top for desktop view
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  margin-top: 0; /* override standard margin top for desktop view*/
 }
 
 /* The navigation menu links */
@@ -331,7 +331,7 @@ footer a {
     cursor: pointer;
     object-fit: contain;
   }
-  #nav-paw{
+  #nav-paw {
     width:50px;
     height: auto;
     padding-right: 20px;
