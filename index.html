@@ -14,24 +14,20 @@
     <script src="https://cdn.usefathom.com/script.js" site="UMBXYJBL" defer></script>
   </head>
     <header id="header">
-      <div class="site-header fixed">
-        <div class="nav-bar nav-colored" id="nav">
-          <a href="/"><img src="images/logo.png" id="header-img" alt="Logo"></a>
-          <nav>
-            <label for="toggle"><img id="nav-paw" src="images/paw.png"></label><input type="checkbox" id="toggle"/>
-            <div id="nav-menu" class="menu">
-              <a href="training">Training</a>
-              <a href="care-at-home">Care at Home</a>
-              <a href="waste-removal">Waste Removal</a>
-              <a href="about">About</a>
-            </div>
-          </nav>
-        </div>
-      </div>
-      <div class="cta">
-        <h1>Professional Pet Services</h1>
+      <div id="nav-bar">
+        <a href="/"><img src="images/logo.png" id="header-img" alt="Logo"></a>
+        <img onClick="openNav()" id="nav-paw" src="images/paw.png">
+        <nav id="nav-menu" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="training">Training</a>
+          <a href="care-at-home">Care at Home</a>
+          <a href="waste-removal">Waste Removal</a>
+          <a href="about">About</a>
+        </nav>
       </div>
     </header>
+
+      
     <body>
 
     <main>
@@ -64,8 +60,7 @@
         </div>
       </div>
     </main>
-    <script src="js/scroll.js"></script>
-    <script src="js/click.js"></script>
+    <script src="js/newnav.js"></script>
   </body>
   
     <footer>

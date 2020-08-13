@@ -99,7 +99,7 @@ header.simple-nav{
   height: 0;
   margin-bottom: 60px;
 }
-.nav-bar{
+#nav-bar{
   height: 70px;
   width: 100%;
   position: fixed;
@@ -145,6 +145,20 @@ nav a {
 }
 
 /* NAV SPECIFIC SECTION */
+#nav-bar{
+  background-color: var(--primary-color); /* Black*/
+  height: 70px;
+}
+#nav-paw, .closebtn{
+  display: none;
+}
+#nav-menu{
+  padding-top: 20px
+}
+
+
+
+/* End Side Nav Experiement Code */
 nav{
     text-align: right;
     color: white;
@@ -161,38 +175,7 @@ nav{
 .menu a:hover{
   text-decoration: underline;
 }
-header label{
-  padding: 15px;
-  display: none;
-  float: right;
-  z-index: 99;
-}
-#toggle{
-  display:none;
-}
 
-/* Buttons and Calls to Action */
-.cta-button{
-  z-index: 99;
-  border-width: 2px;
-  font-weight: bold;
-  display:inline-block;
-  text-decoration:none;
-  cursor:pointer;
-  font-size:20px;
-  line-height:50px;
-  text-align:center;
-  margin:20px 0px;
-  height:50px;
-  padding:0px 33px;
-  border-radius:25px;
-  max-width:100%;
-  white-space:nowrap;
-  overflow:hidden;
-  text-overflow:ellipsis;
-  -webkit-font-smoothing:antialiased;
-  -moz-osx-font-smoothing:grayscale;
-}
 .accent-button{
   background-color: var(--accent-color);
   color: white;
@@ -296,8 +279,49 @@ footer a {
 }
 
 /* Small Screen */
-@media only screen and (max-width : 800px) {
+@media only screen and (max-width : 900px) {
 
+  /* NEw side nav experiment code */
+ /* The side navigation menu */
+.sidenav {
+  height: 0; /* 100% Full-height */
+  width: 100vw; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 60px; /* Stay at the top */
+  left: 0;
+  text-align: center;
+  background-color: var(--primary-color); /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 15px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 40px;
+  margin-left: 50px;
+}
+#nav-paw, .closebtn{
+  display: block;
+}
   main{
     max-width: 90%;
   }
@@ -313,6 +337,8 @@ footer a {
   #nav-paw{
     width:50px;
     height: auto;
+    padding-right: 20px;
+    padding-top: 15px;
   }
   .menu {
     text-align: center;
