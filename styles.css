@@ -76,7 +76,7 @@ iframe {
 }
 
 /* Header Specific */
-header {
+.header-index {
   top: 0;
   left: 0;
   height: 100vh;
@@ -84,6 +84,11 @@ header {
   background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/header-background.jpg');
   background-size: cover;
   background-position: center;
+}
+header {
+  top: 0;
+  left: 0;
+  height: 30px;
 }
 .site-header{
   width: 100%;
@@ -190,6 +195,27 @@ nav{
   max-height: 20px;
   max-width: 30px;
   margin: 5px;
+}
+.button{
+    z-index: 99;
+    border-width: 2px;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    margin: 0;
+    height: 50px;
+    padding: 0px 33px;
+    border-radius: 25px;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 /* Flex Box Controls */
