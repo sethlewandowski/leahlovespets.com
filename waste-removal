@@ -48,8 +48,7 @@
           </a>
       </div>
     </main>
-    <script src="js/scroll.js"></script>
-    <script src="js/click.js"></script>
+    <script src="js/newnav.js"></script>
   </body>
   
   <footer>

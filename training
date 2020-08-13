@@ -53,9 +53,8 @@
           </div>
         </a>
       </div>
-    </main>
-    <script src="js/scroll.js"></script>
-    <script src="js/click.js"></script>
+    </main>    
+    <script src="js/newnav.js"></script>
   </body>
   <footer>
     <p><a id="footer-phone" href="tel:19188103600">(918) 810-3600</a></p>
