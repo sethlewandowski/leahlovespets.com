@@ -42,6 +42,11 @@
             <p>Overnight Stay: $45</p>
             <p>Overnight Stay (2+ nights): $40/night</p>
         </div>
+        <a href="tel:+19188103600">
+          <div class="button accent-button">
+            (918) 810-3600
+          </div>
+        </a>
     </main>
     <script src="js/newnav.js"></script>
   </body>
