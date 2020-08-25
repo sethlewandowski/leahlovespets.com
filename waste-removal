@@ -41,7 +41,7 @@
             <p>Long Distance Travel Fee - +$5</p>
           <p>Give me a call if you'd like to learn more about the pet waste removal services I offer!</p>
           <a href="tel:+19188103600">
-            <div class="button accent-button">
+            <div onClick="window.fathom.trackGoal('MRNOWHTI', 0);" class="button accent-button">
             (918) 810-3600
             </div>
           </a>
@@ -51,7 +51,7 @@
   </body>
   
   <footer>
-    <p><a id="footer-phone" href="tel:19188103600">(918) 810-3600</a></p>
+    <p><a id="footer-phone" onClick="window.fathom.trackGoal('MRNOWHTI', 0);" href="tel:19188103600">(918) 810-3600</a></p>
     <ul class="footer-nav">
       <li><a href="training">Training</a></li>
       <li><a href="care-at-home">Care at Home</a></li>
