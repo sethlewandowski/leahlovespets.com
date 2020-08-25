@@ -47,7 +47,7 @@
           <p>1 Hour Session - $20</p>
           <p>I promise that after just a few short sessions with me, you will not believe the behavior change that your pet will experience. If you're interested in learning more, give me a call!</p>
           <a href="tel:+19188103600">
-          <div onClick="window.fathom.trackGoal('MRNOWHTI', 0);" class="button accent-button">
+          <div onclick="window.fathom.trackGoal('MRNOWHTI', 0);" class="button accent-button">
             (918) 810-3600
           </div>
         </a>
@@ -56,7 +56,7 @@
     <script src="js/newnav.js"></script>
   </body>
   <footer>
-    <p><a id="footer-phone" onClick="window.fathom.trackGoal('MRNOWHTI', 0);" href="tel:19188103600">(918) 810-3600</a></p>
+    <p><a id="footer-phone" onclick="window.fathom.trackGoal('MRNOWHTI', 0);" href="tel:19188103600">(918) 810-3600</a></p>
     <ul class="footer-nav">
       <li><a href="training">Training</a></li>
       <li><a href="care-at-home">Care at Home</a></li>
