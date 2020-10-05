@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>Leah Loves Pets - Waste Removal</title>
-    <meta name="description" content="Leah Loves Pets: Waste Removal">
+    <meta name="description" content="Leah Loves Pets: Pet waste removal in Tulsa, Oklahoma.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="styles.css" >
     <meta property="og:title" content="Leah Loves Pets">
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://leahlovespets.com/waste-removal">
     <meta property="og:image" content="images/waste-removal.jpg">
-    <meta property="og:description" content="Pet Waste Removal">
+    <meta property="og:description" content="Leah Loves Pets: Pet waste removal in Tulsa, Oklahoma.">
     <script src="https://cdn.usefathom.com/script.js" site="UMBXYJBL" defer></script>
   </head>
     <header id="header">
@@ -58,6 +58,7 @@
       <li><a href="waste-removal">Waste Removal</a></li>
       <li><a href="about">About</a></li>
     </ul>
+    <p>Pet training, care, and waste removal serving Tulsa, Oklahoma.</p>
     <p>&copy Leah Loves Pets 2020</p>
   </footer>
 </html>
